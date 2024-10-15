@@ -1,0 +1,29 @@
+{
+    "name": "rama-seck/projet_suivi_dette_3_mvc",
+    "description": "projet_3_eme_architecture_mvc",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "RamaSeck\\ProjetSuiviDette3Mvc\\": "src/",
+            "RamaSeck\\ProjetSuiviDette3Mvc\\App\\Controllers\\": "src/App/Controllers/",
+            "RamaSeck\\ProjetSuiviDette3Mvc\\App\\Models\\": "src/App/Models/",
+            "RamaSeck\\ProjetSuiviDette3Mvc\\App\\Entity\\": "src/App/Entity/",
+            "RamaSeck\\ProjetSuiviDette3Mvc\\Core\\": "src/Core/",
+            "RamaSeck\\ProjetSuiviDette3Mvc\\Core\\Model\\": "src/Core/"
+
+
+
+        }
+    },
+    "authors": [
+        {
+            "name": "Ramaseck1",
+            "email": "seckrama022@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
